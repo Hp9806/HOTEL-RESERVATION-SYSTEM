@@ -15,3 +15,77 @@ room rates. Also, gallery provides pictures of different type of accommodations.
 ease the customer to book rooms. He can check for different amenities provided by the
 hotel.The user can also know more about the hotel and its address. The Interface is simple
 which uses latest web technologies
+## PROGRAM
+## HOME PAGE:
+~~~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tivoli Hotel</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About Us</a> |
+      <a href="#">Contact Us</a> |
+      <a href="#">Gallery</a> |
+      <a href="#">Dine and Lounge</a> |
+      <a href="#">Make a Reservation</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Make a Reservation</h2>
+    <form action="#">
+      <div class="form-group">
+        <label for="room-type">Room Type:</label>
+        <select name="room-type">
+          <option value="standard">Standard Room</option>
+          <option value="deluxe">Deluxe Room</option>
+          <option value="suite">Suite</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="check-in">Check-In Date:</label>
+        <input type="date" name="check-in">
+      </div>
+      <div class="form-group">
+        <label for="check-out">Check-Out Date:</label>
+        <input type="date" name="check-out">
+      </div>
+      <div class="form-group">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name">
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" name="phone-number">
+      </div>
+      <div class="form-group">
+        <button type="submit">Make Reservation</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Tivoli Hotel</p>
+  </footer>
+</body>
+</html>
+
+~~~
+### OUTPUT:
+<img width="462" alt="image" src="https://github.com/Hp9806/HOTEL-RESERVATION-SYSTEM/assets/94154621/ae93b869-58ba-4025-9caf-f7b28710f61a">
+### RESULT:
+Thus we have developed a HOTEL RESERVATION SYSTEM.
