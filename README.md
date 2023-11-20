@@ -87,5 +87,7 @@ which uses latest web technologies
 ~~~
 ### OUTPUT:
 <img width="462" alt="image" src="https://github.com/Hp9806/HOTEL-RESERVATION-SYSTEM/assets/94154621/ae93b869-58ba-4025-9caf-f7b28710f61a">
+
+
 ### RESULT:
 Thus we have developed a HOTEL RESERVATION SYSTEM.
